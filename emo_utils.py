@@ -1,9 +1,6 @@
 import csv
 import numpy as np
 import emoji
-import pandas as pd
-# import matplotlib.pyplot as plt
-from sklearn.metrics import confusion_matrix
 
 
 def read_glove_vecs(glove_file):

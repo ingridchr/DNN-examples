@@ -25,7 +25,6 @@ def __init__():
 
     maxLen = len(max(X_train, key=len).split())
 
-    embedding_layer = pretrained_embedding_layer(word_to_vec_map, word_to_index)
     model = keras_model((maxLen,), word_to_vec_map, word_to_index)
     # model.summary()
     model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
