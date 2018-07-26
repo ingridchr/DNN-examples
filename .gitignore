@@ -2,3 +2,4 @@ venv/
 config_local.ini
 *.pyc
 .idea/
+dataset/emojify/glove.6B.50d.txt
